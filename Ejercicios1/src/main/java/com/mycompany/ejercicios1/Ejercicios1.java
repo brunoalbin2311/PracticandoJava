@@ -14,17 +14,17 @@ import java.util.Scanner;
 public class Ejercicios1 {
 
     public static void main(String[] args) {
-        Ejercicios1 objeto1 = new Ejercicios1();
-        //objeto1.nombreEdad();
-        //objeto1.calcularRadio();
-        //objeto1.Calculadora();
-        //objeto1.indiceMasaCorporal();
-        //objeto1.convertirTemperatura();
-       //bjeto1.diasHorasMinutosSegundos();
-       objeto1.calculadoraDescuentos();
+        
+        //nombreEdad();
+        //calcularRadio();
+        //Calculadora();
+        //indiceMasaCorporal();
+        //convertirTemperatura();
+       //diasHorasMinutosSegundos();
+       //calculadoraDescuentos();
     }
     
-    public void nombreEdad(){
+    public static void nombreEdad(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese su nombre: ");
         String nombre = scanner.nextLine();
@@ -33,7 +33,7 @@ public class Ejercicios1 {
         System.out.println("Hola! "+nombre+", tu edad es "+edad);
     }
     
-    public void calcularRadio(){
+    public static void calcularRadio(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el radio: ");
         int radio = scanner.nextInt();
@@ -41,7 +41,7 @@ public class Ejercicios1 {
         System.out.println("La circunferencia de radio: "+radio+" tiene un area de"+area);
     }
     
-    public void Calculadora(){
+    public static void Calculadora(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese dos números: ");
         int num1 = scanner.nextInt();
@@ -54,7 +54,7 @@ public class Ejercicios1 {
         System.out.println("División: "+num1+"/"+num2+"="+((numm1)/(numm2)));
     }
     
-    public void indiceMasaCorporal(){
+    public static void indiceMasaCorporal(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese su peso en kg: ");
         double peso = scanner.nextFloat();
@@ -64,7 +64,7 @@ public class Ejercicios1 {
         System.out.println("Su IMC es: "+imc);
     }
     
-    public void convertirTemperatura(){
+    public static void convertirTemperatura(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese la temperatura en grados Celsius: ");
         double temp = scanner.nextDouble();
@@ -72,7 +72,7 @@ public class Ejercicios1 {
         System.out.println(far+" grados Fahrenheit");
     }
     
-    public void diasHorasMinutosSegundos(){
+    public static void diasHorasMinutosSegundos(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese un número de días: ");
         int dia = scanner.nextInt();
@@ -82,7 +82,7 @@ public class Ejercicios1 {
         System.out.println(dia+" dias tienen "+horas+" horas, "+minutos+" minutos y "+segundos+ " segundos");
     }
     
-    public void calculadoraDescuentos(){
+    public static void calculadoraDescuentos(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Ingrese el precio ");
         double precio = scanner.nextDouble();

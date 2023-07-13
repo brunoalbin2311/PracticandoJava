@@ -16,10 +16,10 @@ public class Ejercicios2 {
     public static void main(String[] args) {
         Ejercicios2 objeto2 = new Ejercicios2();
         
-        //objeto2.tablaHastaDies();
-        //objeto2.encontrarMayorArray();
-        //System.out.println(objeto2.frasePalindroma());
-        System.out.println(objeto2.sumaCifras());
+        //tablaHastaDies();
+        //encontrarMayorArray();
+        //System.out.println(frasePalindroma());
+        //System.out.println(sumaCifras());
     }
     
     public static void tablaHastaDies(){
