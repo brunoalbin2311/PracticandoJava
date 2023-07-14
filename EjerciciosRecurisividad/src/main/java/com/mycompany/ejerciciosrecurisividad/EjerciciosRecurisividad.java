@@ -20,7 +20,7 @@ public class EjerciciosRecurisividad {
         //System.out.println(sumaDigitos(1234));
         //System.out.println(conteoDigitos(12345));
         //System.out.println(cadenaInvertida("holisss"));
-        imprimirSecuencia(5);
+        //imprimirSecuencia(5);
     }
     
     public static int sumaNumeros(int n){
