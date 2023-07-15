@@ -30,7 +30,7 @@ public class Ejercicios1 {
         String nombre = scanner.nextLine();
         System.out.println("Ingrese su edad: ");
         String edad = scanner.nextLine();
-        System.out.println("Hola! "+nombre+", tu edad es "+edad);
+        System.out.println("¡Hola! "+nombre+", tu edad es "+edad);
     }
     
     public static void calcularRadio(){
@@ -89,6 +89,6 @@ public class Ejercicios1 {
         System.out.println("Ingrese el porcentaje de descueneto: ");
         double descuento = scanner.nextDouble();
         double precioDescontado = precio*descuento/100;
-        System.out.println("Usted tenía un costo de "+precio+", pero con el descuento de "+descuento+", le queda un precio de"+(precio-precioDescontado)+", descontandole un total de "+descuento);
+        System.out.println("Usted tenía un costo de "+precio+", con el descuento de "+descuento+", le queda un precio de"+(precio-precioDescontado)+", descontandole un total de "+descuento);
     }
 }
