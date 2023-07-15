@@ -13,8 +13,8 @@ public class MainAnimal {
 
     public static void main(String[] args) {
         Animal animal1 = new Gato();
-        Animal animal2 = new Perro();
-        Animal animal3 = new Vaca();
+        Animal animal2 = new Vaca();
+        Animal animal3 = new Perro();
         
         animal1.hacerSonido();
         animal2.hacerSonido();

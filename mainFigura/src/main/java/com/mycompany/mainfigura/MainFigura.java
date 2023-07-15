@@ -16,7 +16,7 @@ public class MainFigura {
         Rectangulo rectangulo = new Rectangulo(3, 6);
         Triangulo triangulo = new Triangulo(3, 4);
         
-        System.out.println("Circulo, area= "+circulo.calcularArea()+", perimetro= "+circulo.calcularPerimetro());
+        System.out.println("Circulo,  area= "+circulo.calcularArea()+", perimetro= "+circulo.calcularPerimetro());
         System.out.println("Rectangulo, area= "+rectangulo.calcularArea()+", perimetro= "+rectangulo.calcularPerimetro());
         System.out.println("Triangulo, area= "+triangulo.calcularArea()+", perimetro= "+triangulo.calcularPerimetro());
     }

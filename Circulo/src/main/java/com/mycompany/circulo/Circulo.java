@@ -15,7 +15,7 @@ public class Circulo {
         Circulo circulo1 = new Circulo(5);
         System.out.println("Radio: "+circulo1.getRadio());
         System.out.println("Area: "+circulo1.calcularArea());
-        System.out.println("Perimetro: "+circulo1.calcularPerimetro());
+        System.out.println("Perímetro: "+circulo1.calcularPerimetro());
     }
     
     private int Radio;

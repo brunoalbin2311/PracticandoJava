@@ -15,7 +15,7 @@ public class MainEstudiante {
         
         GrupoEstudiantes grupo = new GrupoEstudiantes(5);
 
-        Estudiante estudiante1 = new Estudiante("Juan", 20);
+        Estudiante estudiante1 = new Estudiante("Pedro", 20);
         Estudiante estudiante2 = new Estudiante("María", 22);
         Estudiante estudiante3 = new Estudiante("Pedro", 19);
 

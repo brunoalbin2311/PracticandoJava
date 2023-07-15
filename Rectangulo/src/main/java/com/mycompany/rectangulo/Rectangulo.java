@@ -15,7 +15,7 @@ public class Rectangulo {
        Rectangulo rectangulo1 = new Rectangulo(3, 6);
         System.out.println("Ancho: "+rectangulo1.getAncho());
         System.out.println("Largo: "+rectangulo1.getLargo());
-        System.out.println("Perimetro: "+rectangulo1.calcularPerimetro());
+        System.out.println("Perímetro: "+rectangulo1.calcularPerimetro());
         System.out.println("Area: "+rectangulo1.calcularArea());
     }
     
