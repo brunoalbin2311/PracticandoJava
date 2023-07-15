@@ -62,7 +62,7 @@ public class EjerciciosRecurisividad {
             System.out.println(n);
             conteoRegresivo(n-1);
         }else{
-            System.out.println("Despegue!");
+            System.out.println("¡Despegue!");
         }
     }
     
