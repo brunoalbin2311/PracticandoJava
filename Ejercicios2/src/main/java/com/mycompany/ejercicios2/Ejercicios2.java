@@ -41,7 +41,7 @@ public class Ejercicios2 {
         
         int[] array = new int[cantidad];
         for(int i = 0; i<cantidad; i++){
-            System.out.println("Ingrese un valor para insertar en el array: ");
+            System.out.println("Ingrese un valor para poder insertar en el array: ");
             array[i] = scanner.nextInt();
         }
         int mayor = Integer.MIN_VALUE;
